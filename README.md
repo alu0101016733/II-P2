@@ -41,3 +41,15 @@ La configuracion para impedir la rotacion en los ejex xz:
 ![1gl](img/1gl.png)
 
 ## Ejercicio 2:
+
+Podemos agregar ejes en: Edit -> Prokect Settings -> Input Manager donde tambien podemos configurar las teclas a utilizar.
+
+![input manager](img/2InputManager.png)
+
+Para el movimiento creamos el script NewCharacterControler y lo asignamos al cubo creado, una vez programado las especificaciones podemos arrancar y mover el cubo. (wsad: eje xz, left right: rotacion y)
+
+![moving](img/2Moving.gif)
+
+## Ejercicio 3:
+
+
