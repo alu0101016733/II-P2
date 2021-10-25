@@ -5,10 +5,11 @@ using UnityEngine;
 public class NewCharacterController : MonoBehaviour
 {
     public float speedMultiplier = 1f;
+    private Transform transform_;
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform_ = GetComponent<Transform>();
     }
 
     // Update is called once per frame
@@ -17,7 +18,7 @@ public class NewCharacterController : MonoBehaviour
         float horizontalMove = Input.GetAxis("Horizontal") * speedMultiplier;
         float verticalMove = Input.GetAxis("Vertical") * speedMultiplier;
         float rotationalMove = Input.GetAxis("Rotation") * speedMultiplier;
-        transform.Translate(new Vector3(horizontalMove, 0f, verticalMove));
-        transform.Rotate(new Vector3(0f, rotationalMove, 0f));
+        transform_.Translate(new Vector3(horizontalMove, 0f, verticalMove));
+        transform_.Rotate(new Vector3(0f, rotationalMove, 0f));
     }
 }
