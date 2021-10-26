@@ -56,4 +56,4 @@ Existen varios nuevos componentes, cilindros amarillos, el tipo de los mismos es
 
 ![3Demo](img/3Demo.gif)
 
-
+Los scripts se encuentran en la raiz de esta carpeta
