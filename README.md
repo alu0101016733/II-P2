@@ -52,4 +52,8 @@ Para el movimiento creamos el script NewCharacterControler y lo asignamos al cub
 
 ## Ejercicio 3:
 
+Existen varios nuevos componentes, cilindros amarillos, el tipo de los mismos es defenido en una variable publica. cilindros azules, se alejan del jugador si se acerca. esfera blanca que es controlado con IJKL, y cubos rosas que aumentan el tamano cuando se le acerca el jugador o se disminuye cuando se acerca una esfera.
+
+![3Demo](img/3Demo.gif)
+
 
