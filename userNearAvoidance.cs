@@ -15,7 +15,7 @@ public class userNearAvoidance : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (Vector3.Distance(player_.transform.position, transform.position) < clearence_) {
             float velocity = Math.Max(0,clearVelocity_ - Vector3.Distance(player_.transform.position, transform.position));
